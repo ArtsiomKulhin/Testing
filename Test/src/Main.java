@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
           Scanner in = new Scanner(System.in);
           PrintStream out = new PrintStream(System.out);
-<<<<<<< HEAD
           lambda<Integer> operation;
           operation = (x,y)->x+y;
           out.print(operation.calculate(100,450));
@@ -13,7 +12,6 @@ public class Main {
 }
 interface lambda<T> {
     T calculate(T x, T y);
-=======
           lambda operation = new lambda(){
               public int calculate(int x, int y) {
                   return x+y;
@@ -24,5 +22,4 @@ interface lambda<T> {
 }
 interface lambda {
     int calculate(int x, int y);
->>>>>>> feature
 }
