@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
           Scanner in = new Scanner(System.in);
           PrintStream out = new PrintStream(System.out);
-          int n = in.nextInt();
+          int n = in.nextInt(), a;
           lambda operation = new lambda(){
               public int calculate(int x, int y) {
                   return x+y;
